@@ -1,10 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
+import { Route } from "react-router-dom";
+// views
+import Home from "./views/Home/Home";
+import Tplmaker from "./views/Tplmaker/Tplmaker";
 
 function App() {
   return (
-    <div>
-      <h1>Greetings</h1>
-    </div>
+      <Fragment>
+          <Route path={"/"} exact component={Home}/>
+          <Route path={"/tplmaker"} component={Tplmaker}/>
+      </Fragment>
   );
 }
 

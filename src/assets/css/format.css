@@ -1,0 +1,96 @@
+@charset "UTF-8";
+/*
+ * Shika ui
+ * yangyunlong
+ * https://github.com/yangyunlong233/shika_app
+ */
+
+/* clear fonts */
+* {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+/* font-family and base rem */
+@font-face {
+    font-family: hcbb;
+    src: url('../fonts/HelveticaNeue-CondensedBlack.ttf');
+}
+
+@font-face {
+    font-family: hcb;
+    src: url('../fonts/HelveticaNeue-CondensedBold.ttf');
+}
+
+@font-face {
+    font-family: hb;
+    src: url('../fonts/HelveticaNeue-Bold.ttf');
+}
+
+@font-face {
+    font-family: hm;
+    src: url('../fonts/HelveticaNeue-Medium.ttf');
+}
+
+@font-face {
+    font-family: hr;
+    src: url('../fonts/HelveticaNeue-Regular.ttf');
+}
+
+@font-face {
+    font-family: hl;
+    src: url('../fonts/HelveticaNeue-Light.ttf');
+}
+
+@font-face {
+    font-family: ht;
+    src: url('../fonts/HelveticaNeue-Thin.ttf');
+}
+
+@font-face {
+    font-family: hu;
+    src: url('../fonts/HelveticaNeue-UltraLight.ttf');
+}
+
+html,
+body {
+    font-size: 20px;
+    font-family: hr, sans-serif;
+    color: hsl(222, 14%, 15%);
+}
+
+/* format elements margin and padding, base font-size */
+body,
+div, h1, h2, h3, h4, h5, h6, p, span, a, img {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+/* header title font-family */
+h1, h2, h3, h4, h5, h6 {
+    font-family: hb sans-serif;
+}
+
+/* list format */
+ul, ol, li {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    font-size: 14px;
+}
+
+/* a link format style */
+a {
+    margin: 0;
+    padding: 0;
+    font-size: 14px;
+    color: hsl(222, 14%, 15%);
+}
+a:link, a:visited {
+    text-decoration: none;
+}
+a:hover {
+    text-decoration: underline;
+}
