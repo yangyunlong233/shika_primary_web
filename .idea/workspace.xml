@@ -2,20 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dbbdd8a-7419-4f85-8c49-fd04f29fc44b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/assets/css/format.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Bold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-CondensedBlack.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-CondensedBold.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Light.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Medium.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Regular.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-Thin.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/assets/fonts/HelveticaNeue-UltraLight.ttf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Home/Home.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/Tplmaker.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Home/Home_styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/Tplmaker_styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/components/ContrlPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/components/PanelMenu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/components/Panel_styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/components/ToolPanel.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/App.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tplmaker/Tplmaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tplmaker/Tplmaker.js" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +90,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572157671198</updated>
-      <workItem from="1572157672561" duration="2802000" />
+      <workItem from="1572157672561" duration="10863000" />
     </task>
     <servers />
   </component>
