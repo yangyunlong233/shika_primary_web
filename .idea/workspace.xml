@@ -2,17 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1dbbdd8a-7419-4f85-8c49-fd04f29fc44b" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/views/Home/Home_styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/Tplmaker_styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/components/ContrlPanel.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/components/PanelMenu.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/components/Panel_styled.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/components/ToolPanel.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/redux/store.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/-------------/Panel_styled.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/-------------/Panels/Custom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/views/Tplmaker/-------------/Panels/Preset.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/views/Home/Home.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Home/Home.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/views/Tplmaker/Tplmaker.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tplmaker/Tplmaker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tplmaker/components/ContrlPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/redux/actions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tplmaker/components/PanelMenu.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tplmaker/-------------/PanelMenu.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tplmaker/components/Panel_styled.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/views/Tplmaker/components/ToolPanel.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/views/Tplmaker/-------------/ToolPanel.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/yarn.lock" beforeDir="false" afterPath="$PROJECT_DIR$/yarn.lock" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -35,20 +37,25 @@
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/assets/fonts" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/views/Tplmaker/components/Panels" />
     <property name="node.js.detected.package.eslint" value="true" />
+    <property name="node.js.detected.package.standard" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
+    <property name="node.js.path.for.package.standard" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
+    <property name="node.js.selected.package.standard" value="" />
     <property name="nodejs_interpreter_path" value="node" />
     <property name="nodejs_package_manager_path" value="yarn" />
     <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/Tplmaker/components/Panels" />
       <recent name="$PROJECT_DIR$/src/views/Tplmaker" />
       <recent name="$PROJECT_DIR$/src/views/Home" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/views/Tplmaker/components/Panels" />
       <recent name="$PROJECT_DIR$/src/assets/fonts" />
       <recent name="$PROJECT_DIR$/src/assets" />
     </key>
@@ -90,7 +97,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1572157671198</updated>
-      <workItem from="1572157672561" duration="10863000" />
+      <workItem from="1572157672561" duration="31645000" />
+      <workItem from="1572244862276" duration="5558000" />
     </task>
     <servers />
   </component>
@@ -102,7 +110,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
