@@ -1,28 +1,25 @@
 import {createStore} from "redux";
-import {CANVAS_WIDTH, CANVAS_HEIGHT} from "./actions";
+import {CANVAS_SIZE, FIELD_ADD} from "./actions";
 
 const tpl_state = {
     canvas: {
         name: '',
-        width: 'aa',
-        height: ''
+        width: 210,
+        height: 297
     },
-    fields: {
-        name: '',
-        id: ''
-    }
+    fields: []
 };
 
-function tpl_reducer(state = tpl_state, action) {
+function tpl_reducer(state=tpl_state, action) {
     switch (action.type) {
-        case CANVAS_WIDTH:
-            return Object.assign({}, state, {canvas:{width: action.value}});
-        case CANVAS_HEIGHT:
-            return Object.assign({}, state, {canvas: {height: action.value}});
+        case CANVAS_SIZE:
+            return Object.assign({}, state, {canvas: action.value});
+        case FIELD_ADD:
+            return {...state, fields: [...state.fields, action.value]};
         default:
             return state
     }
 }
 
-let store = createStore(tpl_reducer);
+let store = createStore(tpl_reducer, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 export default store;
