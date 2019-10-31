@@ -3,7 +3,7 @@ import React, { Component } from "react";
 import { connect } from "react-redux";
 import { set_canvas_size } from "../../../redux/actions"
 // assets
-import { PopLayout, Button } from "./Pop_styled";
+import { PopLayout, Button } from "./CreatePop_styled";
 
 class CreatePop extends Component {
     constructor(props) {

@@ -3,7 +3,7 @@ import {CANVAS_SIZE, FIELD_ADD} from "./actions";
 
 const tpl_state = {
     canvas: {
-        name: '',
+        name: '1',
         width: 210,
         height: 297
     },
